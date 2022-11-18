@@ -21,13 +21,7 @@
 
 - [x] React
 - [x] TypeScript
-
-## Server
-
 - [x] NodeJS
-
-## Database
-
 - [x] MongoDB
 
 ## Starting Dev Environment

@@ -10,9 +10,6 @@ import SecurityRoutes from "../Security";
 const RoutesApp: React.FC = () => {
   return (
     <Routes>
-      <Route path="/create-user" element={<CreateUser />} />
-      <Route path="/signin" element={<SignIn />} />
-
       <Route
         path="/"
         element={
@@ -41,6 +38,22 @@ const RoutesApp: React.FC = () => {
               <VendasDoFlex />
             </Template>
           </SecurityRoutes>
+        }
+      />
+      <Route
+        path="/create-user"
+        element={
+          <Template>
+            <CreateUser />
+          </Template>
+        }
+      />
+      <Route
+        path="/signin"
+        element={
+          <Template>
+            <SignIn />
+          </Template>
         }
       />
     </Routes>

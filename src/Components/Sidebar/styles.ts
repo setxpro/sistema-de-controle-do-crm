@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div<{ wrap: boolean }>`
   height: 100vh;
-  width: ${(props) => (props.wrap ? "200px" : "0px")};
+  width: ${(props) => (props.wrap ? "250px" : "0px")};
   overflow: hidden;
 
   transition: all 1s ease;
